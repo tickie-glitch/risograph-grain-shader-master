@@ -366,11 +366,11 @@ export default class Scene {
     window.addEventListener('resize', this.handleResize, { passive: true })
     window.addEventListener('mousemove', this.handleMousemove, { passive: true })
     //window.addEventListener('mouseclick', this.handleMouseclick, { passive: true })
-    // renderer.domElement.addEventListener('pointerdown', onDown, false)
     // renderer.domElement.addEventListener('pointerup', onUp, false)
 
     this.draw(0)
   }
+
 
   animateModels() {
     // console.log(this.clock.running)
